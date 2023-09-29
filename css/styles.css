@@ -6,19 +6,22 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black
+    background-color: black;
+    color: white;
 }
 
-.board {
+
+.boardContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 5%vw;
+    margin: 10px;
     background-color: #505050;
     border-radius: 10%;
     box-shadow: 0 0 5px #505050, 0 0 25px #505050, 0 0 50px #505050,
