@@ -44,7 +44,7 @@ const randomBool = () => {
 // Misma idea que antes, pero ahora iteramos directamente con un bucle "for" tantas veces como la cantidad pedida
 
 const createButtonsNoArray = () => {
-    let amount = prompt('no vaciles, mete un número natural')
+    let amount = prompt('Cantidad de botones?? No vaciles, mete un número natural')
     for (let position=0; position<amount; position++) {
         const isThisButtonChecked = randomBool()
 
